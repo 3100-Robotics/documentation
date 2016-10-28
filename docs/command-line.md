@@ -17,7 +17,7 @@ The **working directory** is the current directory the terminal is operating in.
 
 An **absolute path** is the full path from the **root directory**. For example: `/home/adrian/Repos/test/.gitignore`.
 
-A **relative path** is relative to the **relative directory**. It starts directly with the name of the file or sub directory. For example: `test/.gitignore`.
+A **relative path** is relative to the **working directory**. It starts directly with the name of the file or sub directory. For example: `test/.gitignore`.
 
 The **home directory** is the directory the terminal will start in. On **\*nix**, it is likely `/home/<username>`. On **Windows**, it is `C:/Users/<username>`. You can reference your home directory as `~/` from anywhere else in the file system.
 
